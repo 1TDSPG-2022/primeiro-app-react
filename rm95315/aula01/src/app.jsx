@@ -1,12 +1,15 @@
 import React from "react";
+import Cabecalho from "./Componentes/cabecalho";
+import Carros from "./Componentes/carros";
+import Parceiros from "./Componentes/Parceiros";
 
 export default function app(){
 
-    const tag = <strong>"Olá React!!"</strong>
-
     return(
         <div>
-            <h1>{tag}</h1>,
+            <Cabecalho></Cabecalho>
+            <Carros></Carros>
+            <Parceiros></Parceiros>
         </div>
     )
 }
