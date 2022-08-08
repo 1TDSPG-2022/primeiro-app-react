@@ -7,6 +7,14 @@ export default function Carro(){
     return(
        <div>
         <img src={carro1} alt="Lancer de vilão" width="300px" />
+       <ul>
+        <li>Renegade</li>
+        <li>Astra</li>
+        <li>X6</li>
+        <li>Golf GTI</li>
+        <li>Nivus</li>
+       </ul>
+       
        </div> 
     )
 }
