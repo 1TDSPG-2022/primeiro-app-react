@@ -7,7 +7,7 @@ export default function Carro() {
     return(
 
         <div>
-            <img src="(carro1)" alt="Carro bruto" />
+            <img src="(carro1)" alt="Carro bruto" width ="300px"/>
         </div>
 
 
