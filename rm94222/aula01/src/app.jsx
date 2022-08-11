@@ -1,13 +1,14 @@
 import React from 'react'
+import Cabecalho from '../aula01/src/cabecalho/cabecalho'
 
-export default function App(){
+export default function App() {
 
     const tag = <strong>"Olá React!!</strong>
     return(
         <div>
-            <h1>
-                <p> </p>
-            </h1>,
+            <Cabecalho/>
+            <h1>(tag)</h1>,
+
         </div>
     )
 }
