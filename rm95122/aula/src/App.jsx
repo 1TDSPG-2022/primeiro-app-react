@@ -11,7 +11,6 @@ export default function App(){
     const soma=(a,b)=>{
         return a+b
     }
-    
 
     return(
         <div>

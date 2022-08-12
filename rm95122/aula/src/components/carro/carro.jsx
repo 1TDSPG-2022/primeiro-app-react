@@ -1,6 +1,12 @@
 import React from 'react'
 
 export default function Carro(props){
+
+    let valor = 0
+    const executarFuncao = (funcao)=>{
+        valor = valor + funcao
+    }
+
    return(
     <div>
 
@@ -17,9 +23,8 @@ export default function Carro(props){
         </ul>
         <h2>APLICAÇÃO</h2>
         <div>
-            {
-             props.soma(10,10)
-            }
+            <button onClick={props.soma(10,10)}>SOMAR</button>
+            <span>VALOR : {valor}</span>
         </div>
     </div>
     )
