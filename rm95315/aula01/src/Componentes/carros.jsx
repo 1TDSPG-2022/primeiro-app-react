@@ -1,6 +1,6 @@
 import React from "react";
-import carro1 from './img/carro1.jpg'
-import carro2 from './img/Camaro.png'
+import carro1 from '../img/carro1.jpg'
+import carro2 from '../img/Camaro.png'
 // import carro3 from './img/relampago.png'
 // import carro4 from './img/TRATORDESTRUIDOR.png'
 
