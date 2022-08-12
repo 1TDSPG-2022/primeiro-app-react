@@ -1,27 +1,31 @@
 import React from "react";
 
-import carro1 from '../../img'
-
 export default function Carro() {
+
+    let valor = 0
+    const executarFuncao = (funcao) =>
+    valor = valor + funcaoconsole.log(valor)
 
     return(
 
         <div>
             <figure>
-                <img src="(carro1)" alt="Carro bruto" width ="300px"/>
+                <img src={props.imgCarro} alt={props.altCarro} width ={props.widthCarro}/>
                 <figcaption>
                     O bronco é bronco
                 </figcaption>
             </figure>
-            <ol>
-                <li>Rnegade</li>
-                <li>Celta</li>
-                <li>Fusca</li>
-                <li>Opala</li>
-                <li>ix-35</li>
-            </ol>
+            <h2>Lista de Carros</h2>
+            <ul>
+                {
+                    props.listaDeCarros.map((carro,i)=>)}
+                    <li>{carro}</li>
+            </ul>
+            <h2>APLICAÇÃO</h2>
+            <div>
+                {props.soma(10,10) +1}
+            </div>
         </div>
-
 
 )
 }
