@@ -9,10 +9,9 @@ import carro3 from './Componentes/img/relampago.png'
 import carro4 from './Componentes/img/TRATORDESTRUIDOR.png'
 import Calculo from "./Componentes/funcao";
 
-
-const alunos = ["luis", "alexandre", "allen"]
-
 const listaCarros = [{carro1},{carro2},{carro3},{carro4}]
+const primeiroNum = 10
+const segundoNum = 12
 
 export default function app(){
 
@@ -20,8 +19,9 @@ export default function app(){
         <div>
             <Cabecalho></Cabecalho>
             <Parceiros></Parceiros>
-            <Calculo numero1 = {2} numero2 = {2}/>
+            <Calculo numero1 = {primeiroNum} numero2 = {segundoNum}/>
             <ListaCarros cars ={listaCarros}/>
+            <Carros/>
         </div>
     )
 }
