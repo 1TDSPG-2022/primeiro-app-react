@@ -6,7 +6,7 @@ export default function Cabecalho (){
         //criar um header e colocar um h1 e paragrafo
         <div className='header'>
             <h1 className="title">TITLE</h1>
-            <p className="par">Componente de apresentação</p>
+            <p className="par">Carro lindo melhor que o Renegade</p>
         </div>
     )   
 

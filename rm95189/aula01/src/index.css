@@ -6,3 +6,7 @@ body{
     color: #fff;
     font-size: 35px;
 }
+
+ul{
+    list-style: none;
+}
