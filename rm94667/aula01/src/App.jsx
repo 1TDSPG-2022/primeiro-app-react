@@ -4,7 +4,7 @@ import Carro from './components/Carro/Carro'
 
 export default function App(){
 
-    const tag = <strong>Olá React!!</strong>
+    const tag = <strong>My Cars For You!</strong>
 
     return(
         <div>
