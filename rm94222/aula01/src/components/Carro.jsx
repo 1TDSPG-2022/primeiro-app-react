@@ -30,5 +30,3 @@ export default function Carro(props) {
     </div>
   )
 }
-Footer
-© 2022 GitHub, Inc.

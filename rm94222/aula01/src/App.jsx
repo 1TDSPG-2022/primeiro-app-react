@@ -1,6 +1,6 @@
 import React from 'react'
-import Carro from './components/carro/Carro'
-import carro_prof from './img/carro-prof.webp'
+import Carro from './components/Carro'
+import carro_prof from '../src/imgs/carro-prof.webp'
 
 export default function App(){
 
