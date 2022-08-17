@@ -1,28 +1,28 @@
 import React from 'react'
-import Carros from './components/carros/Carros'
-import carro1 from './imgs/carro-prof.webp'
-
+import Carro from './components/carro/Carro'
+import carro_prof from './img/carro-prof.webp'
 
 export default function App(){
 
-    const tag = <strong>PUTS</strong>
-    const altCarro = 'Fusca'
-    const widthCarro = '200'
-    const figcaptionCarro = 'Fusca'
-    const listaDeCarros = ['Fusca', 'Gol', 'Uno', 'Palio', 'Brasilia']
+        //INFORMAÇÕES PARA OS VEÍCULOS
+        const altCarro = "Carro de Família"
+        const widthCarro = "200px"
+        const legendaCarro = "Um carro para a vida inteira."
+        //Lista de automóveis
+        const listaDeCarros = ['Fusca','Chevete','Brasilia','Uno','Ka','Corsa','Pálio']
 
-    const soma = (a,b) =>{
-        return a+b
-    }
+        //FUNÇÃO
+        const soma = (a,b)=>{
+            return a+b
+        }
 
     return(
         <div>
-            <h1>{tag}</h1>
-            <Carros 
+            <Carro
+                imgCarro={carro_prof}
                 altCarro={altCarro}
                 widthCarro={widthCarro}
-                figcaptionCarro={figcaptionCarro}
-                imgCarro={carro1}
+                legendaCarro={legendaCarro}
                 listaDeCarros={listaDeCarros}
                 soma={soma}
             />
