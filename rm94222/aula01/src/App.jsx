@@ -1,31 +1,20 @@
 import React from 'react'
-import Carro from './components/Carro'
-import carro_prof from '../src/imgs/carro-prof.webp'
+import carro_prof  from './imgs/'
+import Lista from './components/Carro'
 
-export default function App(){
+export default function App() {
 
-        //INFORMAÇÕES PARA OS VEÍCULOS
-        const altCarro = "Carro de Família"
-        const widthCarro = "200px"
-        const legendaCarro = "Um carro para a vida inteira."
-        //Lista de automóveis
-        const listaDeCarros = ['Fusca','Chevete','Brasilia','Uno','Ka','Corsa','Pálio']
+  const carro = 'Matheus R'
+  const carros =['Fusca','HB20', 'Tucson', 'Peajout']
 
-        //FUNÇÃO
-        const soma = (a,b)=>{
-            return a+b
-        }
+  const novoCarro =() => 'Ferrari'
 
-    return(
-        <div>
-            <Carro
-                imgCarro={carro_prof}
-                altCarro={altCarro}
-                widthCarro={widthCarro}
-                legendaCarro={legendaCarro}
-                listaDeCarros={listaDeCarros}
-                soma={soma}
-            />
-        </div>
-    )
+  return (
+    <>
+      <h1>Carros</h1>
+      <img src={carro_prof.webp} width='250px'></img>
+      <p>Carros: {carro}</p>
+      <Lista carros = {carros} maisCarro={novoCarro}/>
+    </>
+  )
 }
