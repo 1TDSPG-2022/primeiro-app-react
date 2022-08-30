@@ -4,7 +4,8 @@ export default function Cabecalho(){
     return(
         <>
          <header>
-            <p></p>
+            <h1>Cabecalho</h1>
+            <p>paragrafo</p>
          </header>
         </>
     )
